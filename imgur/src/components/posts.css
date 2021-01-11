@@ -1,0 +1,31 @@
+.display{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 1000px;
+    margin: 0 auto;
+    justify-content:flex-start;
+    
+}
+.post{
+    width: 300px;
+    height: 400px;
+    padding: 10px;
+    margin-left :10px;
+    margin-right:10px;
+    margin-top:50px;
+    margin-bottom: 10px;
+    border: 1px solid black;
+    border-radius: 8px;
+    box-shadow: 2px 2px 4px 4px black;
+    background-color:rgb(231, 14, 14);
+}
+.post-info{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.title{
+    text-align: center;
+}
